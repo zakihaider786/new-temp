@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission - Premium Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Complete Your Information</h2>
+        <form id="details-form">
+            <input type="text" id="first-name" placeholder="First Name" required><br>
+            <input type="email" id="email" placeholder="Email" required><br>
+            <input type="text" id="phone" placeholder="Phone No" required><br>
+            <input type="date" id="dob" placeholder="Date of Birth" required><br>
+            <input type="text" id="father-name" placeholder="Father's Name" required><br>
+            <input type="text" id="mother-name" placeholder="Mother's Name (Optional)"><br>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="loading" class="hidden">Loading...</div>
+        <div id="success-message" class="hidden">Your response was successfully submitted!</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
